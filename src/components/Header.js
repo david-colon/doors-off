@@ -10,8 +10,8 @@ const Header = () => {
         
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
-                <img className='float-start' src={SplashImg} alt='nucamp logo' />
-                <h1 className='mt-1'>NuCamp</h1>
+                <img className='float-start' src={SplashImg} alt='Doors Off' />
+                <h1 className='mt-1'>Doors Off</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse navbar isOpen={menuOpen}>
@@ -20,14 +20,11 @@ const Header = () => {
                         <NavLink className='nav-link' to='/'><i className="fa fa-home fa-lg" /> Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='directory'><i className="fa fa-compass fa-lg" /> Directory</NavLink>
+                        <NavLink className='nav-link' to='locations'><i className="fa fa-compass fa-lg" /> Locations</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='about'><i className="fa fa-address-card fa-lg" /> About</NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink className='nav-link' to='contact'><i className="fa fa-comments fa-lg" /> Contact</NavLink>
-                    </NavItem >
                 </Nav >
             </Collapse>
         </Navbar >
