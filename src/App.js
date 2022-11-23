@@ -7,6 +7,7 @@ import LocationDetailPage from './pages/LocationDetailPage';
 import HomePage from './pages/HomePage';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
